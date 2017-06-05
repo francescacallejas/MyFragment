@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/keyTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" >
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/VocabOptions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:padding="5dp" />
+        </Spinner>
+
+    <FrameLayout
+        android:id="@+id/definitions"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+
+
+</LinearLayout>
